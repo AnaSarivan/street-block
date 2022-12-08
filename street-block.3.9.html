@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street BLOCK | CSS</title>
+    <Style>
+        body {
+            background-color: #223;
+        }
+        .street {
+            border: 1px dotted whitesmoke;
+        }
+        .house {
+            
+            height: 150px;
+            width: 100px;
+            /*border: 1px solid green;*/
+            display: inline-block;
+            margin-left: 30px;
+            vertical-align: bottom;
+        
+        }
+        .building-tall {
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            background-color: antiquewhite;
+            margin-top: 30px;
+            /*margin-bottom: -78px;*/
+            margin-left: 50px;
+            vertical-align: bottom;
+        }
+
+        .window-tall-building {
+            width: 35px;
+            height: 30px;
+            border: 2px solid brown;
+            transform: translateX(33px) translateY(23px);
+            display: block;
+            margin-top: 15px;
+        }
+        .cloud {
+            width: 50px;
+            /*background-color: azure;*/
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 30px;
+            padding-left: 20px;
+        }
+        .building-small {
+            display: inline-block;
+            height: 200px;
+            width: 160px;
+            background-color: antiquewhite;
+            margin-bottom: 0px;
+            margin-left: 15px;            
+        }
+        .window-small-building {
+            width: 40px;
+            height: 40px;
+            border: 2px solid brown;
+            transform: translateX(25px) translateY(20px);           
+            display: inline-flex ;
+            margin-right: 20px;
+            margin-top: 15px;            
+        }
+        .tree {
+            width: 500px;
+            /*background-color: whitesmoke;*/
+            display: inline-block;
+            font-size: 70px;
+            margin-left: 70px;
+            vertical-align: bottom;
+            padding-top: 70px;
+
+        }
+
+        .house-roof {
+            height: 0px;
+            width: 0px;
+            /*background-color: red;*/
+            /*TRIANGLE*/
+            border: 50px solid white;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: brown;
+            border-bottom-width: 70px;
+                       
+        }
+        .house-wall {
+            background-color: antiquewhite;
+            height: 80px;
+        
+        }
+        .house-window {
+            width: 30px;
+            height: 30px;
+            border: 2px solid brown;
+            transform: translateX(33px) translateY(23px);
+            display: inline-block;
+        }
+        .window-section {
+            border-right: 2px dashed brown;
+            width: 14px;
+            height: inherit;
+            display: inline-block;
+
+        }
+        
+
+        /*HW ..... 
+        section the window*/
+
+        
+    </Style>
+
+</head>
+<body>
+    <div class="street">
+        <div class="house">
+            <div class="house-roof">
+                <!--add horn ... decoration-->
+            </div>
+            <div class="house-wall">
+                <div class="house-window">
+                    <div class="window-section"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="building-tall">
+            <div class="window-tall-building"></div>
+            <div class="window-tall-building"></div>
+            <div class="window-tall-building"></div>
+            <div class="window-tall-building"></div>            
+        </div>
+
+        <div class="cloud">
+            <img src="https://icons.iconarchive.com/icons/flaticonmaker/flat-style/72/cloud-icon.png" alt="">
+        </div>
+
+        <div class="building-small">
+            <div class="window-small-building"></div>
+            <div class="window-small-building"></div>
+            <div class="window-small-building"></div>
+            <div class="window-small-building"></div>
+        </div>
+
+        <div class="tree">
+            🌲🌲🌲🌲🌲
+        </div>
+    </div>
+</body>
+</html>
